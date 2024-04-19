@@ -282,3 +282,4 @@ C:\Users\meiyi\Downloads\uppgifter backup\shop\shop\obj\Debug\net8.0\refint\shop
 C:\Users\meiyi\Downloads\uppgifter backup\shop\shop\obj\Debug\net8.0\shop.pdb
 C:\Users\meiyi\Downloads\uppgifter backup\shop\shop\obj\Debug\net8.0\shop.genruntimeconfig.cache
 C:\Users\meiyi\Downloads\uppgifter backup\shop\shop\obj\Debug\net8.0\ref\shop.dll
+C:\Users\meiyi\Downloads\shop\shop\obj\Debug\net8.0\shop.sourcelink.json

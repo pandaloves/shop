@@ -57,7 +57,7 @@ namespace shop.Controllers
         [Route("register")]
         public IActionResult Register(UserSignupRequestDto registrationDto)
         {
-            // Create a new GiftShopUser with UserType set to Registered (1)
+            // Create a new ShopUser with UserType set to Registered (1)
             var user = new ShopUser
             {
                 FirstName = registrationDto.FirstName,

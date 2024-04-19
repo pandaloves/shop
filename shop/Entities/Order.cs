@@ -9,8 +9,8 @@ public class Order
     public int OrderId { get; set; }
     public decimal TotalAmount { get; set; }
 
-    public int UserId { get; set; } // Foreign key to GiftShopUser
-    public ShopUser User { get; set; } // An Order belongs to one GiftShopUser
+    public int UserId { get; set; } // Foreign key to ShopUser
+    public ShopUser User { get; set; } // An Order belongs to one ShopUser
     public ICollection<OrderItem> OrderItems { get; set; }
 
     public Payment Payment { get; set; }

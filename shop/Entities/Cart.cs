@@ -6,8 +6,8 @@ namespace shop.Entities
     {
         public int CartId { get; set; }
 
-        public int UserId { get; set; } // Foreign key to GiftShopUser
-        public ShopUser User { get; set; } // A Cart belongs to one GiftShopUser
+        public int UserId { get; set; } // Foreign key to ShopUser
+        public ShopUser User { get; set; } // A Cart belongs to one ShopUser
 
         public ICollection<CartItem> CartItems { get; set; } // A Cart can have many CartItems
     }

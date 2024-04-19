@@ -14,8 +14,8 @@ public class ShopUser
     public UserType UserType { get; set; }
 
     [NotMapped]
-    public Cart Cart { get; set; } // GiftShopUser can have one Cart
+    public Cart Cart { get; set; } // ShopUser can have one Cart
 
     [NotMapped]
-    public ICollection<Order> Orders { get; set; } // GiftShopUser can have many Orders
+    public ICollection<Order> Orders { get; set; } // ShopUser can have many Orders
 }
