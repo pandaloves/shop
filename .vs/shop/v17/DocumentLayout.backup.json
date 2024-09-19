@@ -1,0 +1,606 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\Migrations\\20240919194016_ProductsNew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:shop\\Migrations\\20240919194016_ProductsNew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|c:\\users\\meiyi\\documents\\documents from mac\\jensen, frontendutvecklare\\courses\\paketering, leverans och uppf\u00F6ljning\\shop\\shop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|solutionrelative:shop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\shop.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:shop\\shop.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|c:\\users\\meiyi\\documents\\documents from mac\\jensen, frontendutvecklare\\courses\\paketering, leverans och uppf\u00F6ljning\\shop\\shop\\userdetailsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|solutionrelative:shop\\userdetailsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|c:\\users\\meiyi\\documents\\documents from mac\\jensen, frontendutvecklare\\courses\\paketering, leverans och uppf\u00F6ljning\\shop\\shop\\shop.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|solutionrelative:shop\\shop.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|c:\\users\\meiyi\\documents\\documents from mac\\jensen, frontendutvecklare\\courses\\paketering, leverans och uppf\u00F6ljning\\shop\\shop\\shop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|solutionrelative:shop\\shop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|c:\\users\\meiyi\\documents\\documents from mac\\jensen, frontendutvecklare\\courses\\paketering, leverans och uppf\u00F6ljning\\shop\\shop\\jwthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|solutionrelative:shop\\jwthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|c:\\users\\meiyi\\documents\\documents from mac\\jensen, frontendutvecklare\\courses\\paketering, leverans och uppf\u00F6ljning\\shop\\shop\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|solutionrelative:shop\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|c:\\users\\meiyi\\documents\\documents from mac\\jensen, frontendutvecklare\\courses\\paketering, leverans och uppf\u00F6ljning\\shop\\shop\\queries\\paginatedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|solutionrelative:shop\\queries\\paginatedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|c:\\users\\meiyi\\documents\\documents from mac\\jensen, frontendutvecklare\\courses\\paketering, leverans och uppf\u00F6ljning\\shop\\shop\\queries\\paginatedquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|solutionrelative:shop\\queries\\paginatedquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|c:\\users\\meiyi\\documents\\documents from mac\\jensen, frontendutvecklare\\courses\\paketering, leverans och uppf\u00F6ljning\\shop\\shop\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|solutionrelative:shop\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|c:\\users\\meiyi\\documents\\documents from mac\\jensen, frontendutvecklare\\courses\\paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\usertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|solutionrelative:shop\\models\\usertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|c:\\users\\meiyi\\documents\\documents from mac\\jensen, frontendutvecklare\\courses\\paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\usersignuprequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|solutionrelative:shop\\models\\usersignuprequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|c:\\users\\meiyi\\documents\\documents from mac\\jensen, frontendutvecklare\\courses\\paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\userloginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|solutionrelative:shop\\models\\userloginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|c:\\users\\meiyi\\documents\\documents from mac\\jensen, frontendutvecklare\\courses\\paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\userdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|solutionrelative:shop\\models\\userdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|c:\\users\\meiyi\\documents\\documents from mac\\jensen, frontendutvecklare\\courses\\paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\producttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|solutionrelative:shop\\models\\producttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|c:\\users\\meiyi\\documents\\documents from mac\\jensen, frontendutvecklare\\courses\\paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|solutionrelative:shop\\models\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|c:\\users\\meiyi\\documents\\documents from mac\\jensen, frontendutvecklare\\courses\\paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|solutionrelative:shop\\models\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|c:\\users\\meiyi\\documents\\documents from mac\\jensen, frontendutvecklare\\courses\\paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|solutionrelative:shop\\models\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|c:\\users\\meiyi\\documents\\documents from mac\\jensen, frontendutvecklare\\courses\\paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\loginresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|solutionrelative:shop\\models\\loginresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|c:\\users\\meiyi\\documents\\documents from mac\\jensen, frontendutvecklare\\courses\\paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\loginrequestresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|solutionrelative:shop\\models\\loginrequestresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|c:\\users\\meiyi\\documents\\documents from mac\\jensen, frontendutvecklare\\courses\\paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\editproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|solutionrelative:shop\\models\\editproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|c:\\users\\meiyi\\documents\\documents from mac\\jensen, frontendutvecklare\\courses\\paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|solutionrelative:shop\\models\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|c:\\users\\meiyi\\documents\\documents from mac\\jensen, frontendutvecklare\\courses\\paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\authresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|solutionrelative:shop\\models\\authresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|c:\\users\\meiyi\\documents\\documents from mac\\jensen, frontendutvecklare\\courses\\paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\addproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|solutionrelative:shop\\models\\addproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|c:\\users\\meiyi\\documents\\documents from mac\\jensen, frontendutvecklare\\courses\\paketering, leverans och uppf\u00F6ljning\\shop\\shop\\entities\\shopuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|solutionrelative:shop\\entities\\shopuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|c:\\users\\meiyi\\documents\\documents from mac\\jensen, frontendutvecklare\\courses\\paketering, leverans och uppf\u00F6ljning\\shop\\shop\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|solutionrelative:shop\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|c:\\users\\meiyi\\documents\\documents from mac\\jensen, frontendutvecklare\\courses\\paketering, leverans och uppf\u00F6ljning\\shop\\shop\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|solutionrelative:shop\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|c:\\users\\meiyi\\documents\\documents from mac\\jensen, frontendutvecklare\\courses\\paketering, leverans och uppf\u00F6ljning\\shop\\shop\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|solutionrelative:shop\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|c:\\users\\meiyi\\documents\\documents from mac\\jensen, frontendutvecklare\\courses\\paketering, leverans och uppf\u00F6ljning\\shop\\shop\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|solutionrelative:shop\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|c:\\users\\meiyi\\documents\\documents from mac\\jensen, frontendutvecklare\\courses\\paketering, leverans och uppf\u00F6ljning\\shop\\shop\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|solutionrelative:shop\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|c:\\users\\meiyi\\documents\\documents from mac\\jensen, frontendutvecklare\\courses\\paketering, leverans och uppf\u00F6ljning\\shop\\shop\\controllers\\shopuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|solutionrelative:shop\\controllers\\shopuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|c:\\users\\meiyi\\documents\\documents from mac\\jensen, frontendutvecklare\\courses\\paketering, leverans och uppf\u00F6ljning\\shop\\shop\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|solutionrelative:shop\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|c:\\users\\meiyi\\documents\\documents from mac\\jensen, frontendutvecklare\\courses\\paketering, leverans och uppf\u00F6ljning\\shop\\shop\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|solutionrelative:shop\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|c:\\users\\meiyi\\documents\\documents from mac\\jensen, frontendutvecklare\\courses\\paketering, leverans och uppf\u00F6ljning\\shop\\shop\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|solutionrelative:shop\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|c:\\users\\meiyi\\documents\\documents from mac\\jensen, frontendutvecklare\\courses\\paketering, leverans och uppf\u00F6ljning\\shop\\shop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6089A48A-0E7E-44B1-B04E-0016507E7875}|shop\\shop.csproj|solutionrelative:shop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:76309995:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240919194016_ProductsNew.cs",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\Migrations\\20240919194016_ProductsNew.cs",
+              "RelativeDocumentMoniker": "shop\\Migrations\\20240919194016_ProductsNew.cs",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\Migrations\\20240919194016_ProductsNew.cs",
+              "RelativeToolTip": "shop\\Migrations\\20240919194016_ProductsNew.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:40:16.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserDetailsService.cs",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\UserDetailsService.cs",
+              "RelativeDocumentMoniker": "shop\\UserDetailsService.cs",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\UserDetailsService.cs",
+              "RelativeToolTip": "shop\\UserDetailsService.cs",
+              "ViewState": "AgIAABMAAACgZmY6RMIpwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:35:59.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "shop.http",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\shop.http",
+              "RelativeDocumentMoniker": "shop\\shop.http",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\shop.http",
+              "RelativeToolTip": "shop\\shop.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-09-19T19:35:59.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "shop.csproj.user",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\shop.csproj.user",
+              "RelativeDocumentMoniker": "shop\\shop.csproj.user",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\shop.csproj.user",
+              "RelativeToolTip": "shop\\shop.csproj.user",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2024-09-19T19:35:59.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "shop.csproj",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\shop.csproj",
+              "RelativeDocumentMoniker": "shop\\shop.csproj",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\shop.csproj",
+              "RelativeToolTip": "shop\\shop.csproj",
+              "ViewState": "AQIAAAwAAACAMzMzMzMbwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-19T19:35:59.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JwtHandler.cs",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\JwtHandler.cs",
+              "RelativeDocumentMoniker": "shop\\JwtHandler.cs",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\JwtHandler.cs",
+              "RelativeToolTip": "shop\\JwtHandler.cs",
+              "ViewState": "AQIAADgAAAAAMzMzMzMbwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:35:59.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "shop\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\appsettings.Development.json",
+              "RelativeToolTip": "shop\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-19T19:35:59.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PaginatedResult.cs",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\Queries\\PaginatedResult.cs",
+              "RelativeDocumentMoniker": "shop\\Queries\\PaginatedResult.cs",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\Queries\\PaginatedResult.cs",
+              "RelativeToolTip": "shop\\Queries\\PaginatedResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:35:59.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PaginatedQuery.cs",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\Queries\\PaginatedQuery.cs",
+              "RelativeDocumentMoniker": "shop\\Queries\\PaginatedQuery.cs",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\Queries\\PaginatedQuery.cs",
+              "RelativeToolTip": "shop\\Queries\\PaginatedQuery.cs",
+              "ViewState": "AQIAAA8AAACAZmZmZmYUwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:35:59.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "shop\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\Properties\\launchSettings.json",
+              "RelativeToolTip": "shop\\Properties\\launchSettings.json",
+              "ViewState": "AQIAABMAAAAAZmZmZmYEwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-19T19:35:59.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserType.cs",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\UserType.cs",
+              "RelativeDocumentMoniker": "shop\\models\\UserType.cs",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\UserType.cs",
+              "RelativeToolTip": "shop\\models\\UserType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:35:59.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserSignupRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\UserSignupRequestDto.cs",
+              "RelativeDocumentMoniker": "shop\\models\\UserSignupRequestDto.cs",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\UserSignupRequestDto.cs",
+              "RelativeToolTip": "shop\\models\\UserSignupRequestDto.cs",
+              "ViewState": "AQIAAAIAAAAAMzMzMzP7vwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:35:59.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserLoginRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\UserLoginRequestDto.cs",
+              "RelativeDocumentMoniker": "shop\\models\\UserLoginRequestDto.cs",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\UserLoginRequestDto.cs",
+              "RelativeToolTip": "shop\\models\\UserLoginRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:35:59.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\UserDetailsDto.cs",
+              "RelativeDocumentMoniker": "shop\\models\\UserDetailsDto.cs",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\UserDetailsDto.cs",
+              "RelativeToolTip": "shop\\models\\UserDetailsDto.cs",
+              "ViewState": "AQIAAAAAAABwZmZmZiYgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:35:59.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductType.cs",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\ProductType.cs",
+              "RelativeDocumentMoniker": "shop\\models\\ProductType.cs",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\ProductType.cs",
+              "RelativeToolTip": "shop\\models\\ProductType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:35:59.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PaymentDto.cs",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\PaymentDto.cs",
+              "RelativeDocumentMoniker": "shop\\models\\PaymentDto.cs",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\PaymentDto.cs",
+              "RelativeToolTip": "shop\\models\\PaymentDto.cs",
+              "ViewState": "AQIAAAEAAAAQAAAAAEAlwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:35:59.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\OrderDto.cs",
+              "RelativeDocumentMoniker": "shop\\models\\OrderDto.cs",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\OrderDto.cs",
+              "RelativeToolTip": "shop\\models\\OrderDto.cs",
+              "ViewState": "AQIAAAIAAAAAMzMzMzP7vwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:35:59.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OrderDetails.cs",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\OrderDetails.cs",
+              "RelativeDocumentMoniker": "shop\\models\\OrderDetails.cs",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\OrderDetails.cs",
+              "RelativeToolTip": "shop\\models\\OrderDetails.cs",
+              "ViewState": "AQIAAAIAAABAMzMzM7MiwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:35:59.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginResult.cs",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\LoginResult.cs",
+              "RelativeDocumentMoniker": "shop\\models\\LoginResult.cs",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\LoginResult.cs",
+              "RelativeToolTip": "shop\\models\\LoginResult.cs",
+              "ViewState": "AQIAAAgAAABgZmZmZiYwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:35:59.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LoginRequestResponse.cs",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\LoginRequestResponse.cs",
+              "RelativeDocumentMoniker": "shop\\models\\LoginRequestResponse.cs",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\LoginRequestResponse.cs",
+              "RelativeToolTip": "shop\\models\\LoginRequestResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:35:59.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EditProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\EditProductDto.cs",
+              "RelativeDocumentMoniker": "shop\\models\\EditProductDto.cs",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\EditProductDto.cs",
+              "RelativeToolTip": "shop\\models\\EditProductDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:35:59.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CartDto.cs",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\CartDto.cs",
+              "RelativeDocumentMoniker": "shop\\models\\CartDto.cs",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\CartDto.cs",
+              "RelativeToolTip": "shop\\models\\CartDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:35:59.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AuthResult.cs",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\AuthResult.cs",
+              "RelativeDocumentMoniker": "shop\\models\\AuthResult.cs",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\AuthResult.cs",
+              "RelativeToolTip": "shop\\models\\AuthResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:35:59.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AddProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\AddProductDto.cs",
+              "RelativeDocumentMoniker": "shop\\models\\AddProductDto.cs",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\models\\AddProductDto.cs",
+              "RelativeToolTip": "shop\\models\\AddProductDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:35:59.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ShopUser.cs",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\Entities\\ShopUser.cs",
+              "RelativeDocumentMoniker": "shop\\Entities\\ShopUser.cs",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\Entities\\ShopUser.cs",
+              "RelativeToolTip": "shop\\Entities\\ShopUser.cs",
+              "ViewState": "AQIAAAkAAACAZmZmZuYswBMAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:35:59.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "shop\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\Entities\\Product.cs",
+              "RelativeToolTip": "shop\\Entities\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:35:59.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\Entities\\Payment.cs",
+              "RelativeDocumentMoniker": "shop\\Entities\\Payment.cs",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\Entities\\Payment.cs",
+              "RelativeToolTip": "shop\\Entities\\Payment.cs",
+              "ViewState": "AQIAAAgAAAAAwruvWNvlvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:35:59.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "shop\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\Entities\\Order.cs",
+              "RelativeToolTip": "shop\\Entities\\Order.cs",
+              "ViewState": "AQIAABIAAACQZmZmZiYwwAwAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:35:59.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\Entities\\Cart.cs",
+              "RelativeDocumentMoniker": "shop\\Entities\\Cart.cs",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\Entities\\Cart.cs",
+              "RelativeToolTip": "shop\\Entities\\Cart.cs",
+              "ViewState": "AQIAAA0AAAAgzczMzIwjwAkAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:35:59.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "shop\\Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\Data\\DataContext.cs",
+              "RelativeToolTip": "shop\\Data\\DataContext.cs",
+              "ViewState": "AgIAAI8AAAAAaGZmZuYswA4BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:35:59.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ShopUsersController.cs",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\Controllers\\ShopUsersController.cs",
+              "RelativeDocumentMoniker": "shop\\Controllers\\ShopUsersController.cs",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\Controllers\\ShopUsersController.cs",
+              "RelativeToolTip": "shop\\Controllers\\ShopUsersController.cs",
+              "ViewState": "AQIAAE4AAAAA+/GZrRcQwDsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:35:59.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "shop\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "shop\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAIgAAAAAZA2s+zkbwE8AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:35:59.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "shop\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "shop\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAAFsAAAAALXC9l/gdwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:35:59.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PaymentsController.cs",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\Controllers\\PaymentsController.cs",
+              "RelativeDocumentMoniker": "shop\\Controllers\\PaymentsController.cs",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\Controllers\\PaymentsController.cs",
+              "RelativeToolTip": "shop\\Controllers\\PaymentsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:35:59.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\Program.cs",
+              "RelativeDocumentMoniker": "shop\\Program.cs",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\Program.cs",
+              "RelativeToolTip": "shop\\Program.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAAABwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:35:59.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\appsettings.json",
+              "RelativeDocumentMoniker": "shop\\appsettings.json",
+              "ToolTip": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppf\u00F6ljning\\shop\\shop\\appsettings.json",
+              "RelativeToolTip": "shop\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-19T19:35:59.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
