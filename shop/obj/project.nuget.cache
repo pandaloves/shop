@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KjxYysHnATonro0PRrPnZXLqZ80pW82uEuNQqXZZZs1qNFNTdo9bfQB53i/i5TrBjdhDY2nc6o0SyPHsa+X6jw==",
+  "dgSpecHash": "QaV+QYYM0Fs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\meiyi\\Downloads\\shop\\shop\\shop.csproj",
+  "projectFilePath": "C:\\Users\\meiyi\\Documents\\documents from mac\\Jensen, Frontendutvecklare\\Courses\\Paketering, leverans och uppföljning\\shop\\shop\\shop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\meiyi\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\meiyi\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
