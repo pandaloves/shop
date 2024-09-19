@@ -134,7 +134,6 @@ C:\Users\meiyi\Downloads\shop\shop\obj\Debug\net8.0\staticwebassets\msbuild.buil
 C:\Users\meiyi\Downloads\shop\shop\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.shop.props
 C:\Users\meiyi\Downloads\shop\shop\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\meiyi\Downloads\shop\shop\obj\Debug\net8.0\scopedcss\bundle\shop.styles.css
-C:\Users\meiyi\Downloads\shop\shop\obj\Debug\net8.0\shop.csproj.CopyComplete
 C:\Users\meiyi\Downloads\shop\shop\obj\Debug\net8.0\shop.dll
 C:\Users\meiyi\Downloads\shop\shop\obj\Debug\net8.0\refint\shop.dll
 C:\Users\meiyi\Downloads\shop\shop\obj\Debug\net8.0\shop.pdb
@@ -426,3 +425,4 @@ C:\Users\meiyi\Documents\documents from mac\Jensen, Frontendutvecklare\Courses\P
 C:\Users\meiyi\Documents\documents from mac\Jensen, Frontendutvecklare\Courses\Paketering, leverans och uppföljning\shop\shop\obj\Debug\net8.0\shop.pdb
 C:\Users\meiyi\Documents\documents from mac\Jensen, Frontendutvecklare\Courses\Paketering, leverans och uppföljning\shop\shop\obj\Debug\net8.0\shop.genruntimeconfig.cache
 C:\Users\meiyi\Documents\documents from mac\Jensen, Frontendutvecklare\Courses\Paketering, leverans och uppföljning\shop\shop\obj\Debug\net8.0\ref\shop.dll
+C:\Users\meiyi\Downloads\shop\shop\obj\Debug\net8.0\shop.csproj.Up2Date
