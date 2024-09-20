@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using shop.Entities;
-using shop.models;
+
 
 public class ShopUser
 {
@@ -11,7 +11,6 @@ public class ShopUser
     public string? LastName { get; set; }
     public string? Email { get; set; }
     public string? Password { get; set; }
-    public UserType UserType { get; set; }
 
     [NotMapped]
     public Cart Cart { get; set; } // ShopUser can have one Cart

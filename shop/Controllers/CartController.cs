@@ -1,11 +1,8 @@
 using Microsoft.AspNetCore.Cors;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using shop.models;
 using shop.Entities;
 using Microsoft.EntityFrameworkCore;
-using System.Linq;
-using System.Threading.Tasks;
 using shop.Data;
 
 namespace shop.Controllers
@@ -76,41 +73,6 @@ namespace shop.Controllers
             return Ok(new { Success = true, Message = "Cart updated successfully." });
         }
 
-        [HttpPost("convert-cart/{userId}")]
-        public async Task<IActionResult> ConvertLocalCartToDbCart(int userId, [FromBody] CartDto cartDto)
-        {
-            if (cartDto == null || cartDto.CartItems == null || cartDto.CartItems.Count == 0)
-            {
-                return BadRequest("Invalid cart data.");
-            }
-
-            // create a new cart for the user
-            var cart = new Cart
-            {
-                UserId = userId,
-                CartItems = new List<CartItem>()
-            };
-
-            foreach (var cartItemDto in cartDto.CartItems)
-            {
-                // Add each item to the cart
-                cart.CartItems.Add(new CartItem
-                {
-                    ProductId = cartItemDto.ProductId,
-                    ProductQuantity = cartItemDto.ProductQuantity
-                });
-            }
-
-            // Save the new cart to the database
-            _context.Carts.Add(cart);
-            await _context.SaveChangesAsync();
-
-            return Ok(new { Success = true, Message = "Cart created and updated successfully." });
-        }
-
-
-
-
         [HttpGet("get-cart-items/{userId}")]
         public async Task<IActionResult> GetCartItems(int userId)
         {
@@ -125,7 +87,6 @@ namespace shop.Controllers
                     ProductImage = ci.Product.ProductImage,
                     ProductPrice = ci.Product.ProductPrice,
                     ProductQuantity = ci.ProductQuantity,
-                    ProductCategory = ci.Product.ProductCategory
                 })
                 .ToListAsync();
 

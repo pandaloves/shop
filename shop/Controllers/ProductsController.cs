@@ -3,12 +3,9 @@ using Microsoft.AspNetCore.Mvc;
 using shop.Data;
 using shop.Entities;
 using shop.models;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
-using SignInResult = Microsoft.AspNetCore.Identity.SignInResult;
-using shop.Queries;
+
+
 
 namespace shop.Controllers
 {
@@ -58,7 +55,6 @@ namespace shop.Controllers
                     ProductName = productInput.ProductName,
                     ProductDescription = productInput.ProductDescription,
                     ProductImage = productInput.ProductImage,
-                    ProductCategory = productInput.ProductCategory,
                     ProductPrice = productInput.ProductPrice,
                     ProductQuantity = productInput.ProductQuantity
                 };
@@ -89,7 +85,6 @@ namespace shop.Controllers
             dbProduct.ProductName = productDto.ProductName;
             dbProduct.ProductDescription = productDto.ProductDescription;
             dbProduct.ProductImage = productDto.ProductImage;
-            dbProduct.ProductCategory = productDto.ProductCategory;
             dbProduct.ProductPrice = productDto.ProductPrice;
             dbProduct.ProductQuantity = productDto.ProductQuantity;
 
@@ -105,47 +100,13 @@ namespace shop.Controllers
             var dbProduct = await _context.Products.FindAsync(ProductId);
             if (dbProduct == null)
             {
-                return BadRequest("User not found.");
+                return BadRequest("Product not found.");
             }
 
             _context.Products.Remove(dbProduct);
             await _context.SaveChangesAsync();
 
-            return Ok(await _context.Products.ToListAsync());
-        }
-
-        [HttpGet("filter")]
-        public async Task<ActionResult<List<Product>>> GetFilteredProducts(string category)
-        {
-            if (string.IsNullOrEmpty(category) || category.Equals("All Categories", StringComparison.OrdinalIgnoreCase))
-            {
-                return await _context.Products.ToListAsync();
-            }
-            else
-            {
-                List<Product> filteredProducts = await _context.Products
-                    .Where(product => product.ProductCategory.ToString().Equals(category, StringComparison.OrdinalIgnoreCase))
-                    .ToListAsync();
-
-                return Ok(filteredProducts);
-            }
-        }
-
-        [HttpGet("search")]
-        public async Task<ActionResult<List<Product>>> SearchProducts(string searchTerm)
-        {
-            if (string.IsNullOrEmpty(searchTerm))
-            {
-                return BadRequest("Search term cannot be empty.");
-            }
-
-            List<Product> searchedProducts = await _context.Products
-                .Where(product =>
-                    product.ProductName.Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
-                    product.ProductDescription.Contains(searchTerm, StringComparison.OrdinalIgnoreCase))
-                .ToListAsync();
-
-            return Ok(searchedProducts);
+            return Ok(new { Success = true, Message = "Delete product successfully" });
         }
     }
 }
