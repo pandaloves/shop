@@ -1,10 +1,5 @@
-using shop.Entities;
-using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
-using System;
-using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
@@ -31,7 +26,6 @@ namespace shop
                 new Claim(ClaimTypes.Name, user.Email),
                 new Claim(ClaimTypes.Name, user.FirstName),
                 new Claim(ClaimTypes.Name, user.UserId.ToString()),
-                new Claim(ClaimTypes.Name, user.UserType.ToString()),
                 // Add more claims as needed
             };
 

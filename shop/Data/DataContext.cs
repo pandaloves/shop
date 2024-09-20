@@ -215,7 +215,7 @@ namespace shop.Data
 
             modelBuilder.Entity<Order>()
                  .Property(e => e.TotalAmount)
-                 .HasColumnType("decimal(18, 2)"); // Example precision and scale, adjust as needed
+                 .HasColumnType("decimal(18, 2)");
 
             modelBuilder.Entity<Product>()
                  .Property(e => e.ProductPrice)

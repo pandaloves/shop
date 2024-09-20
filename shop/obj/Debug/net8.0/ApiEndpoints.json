@@ -17,27 +17,6 @@
   },
   {
     "ContainingType": "shop.Controllers.CartController",
-    "Method": "ConvertLocalCartToDbCart",
-    "RelativePath": "api/Cart/convert-cart/{userId}",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "userId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "cartDto",
-        "Type": "shop.models.CartDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "shop.Controllers.CartController",
     "Method": "DecrementCartItem",
     "RelativePath": "api/Cart/decrement-cart-item/{userId}/{productId}",
     "HttpMethod": "POST",
@@ -175,6 +154,22 @@
   },
   {
     "ContainingType": "shop.Controllers.OrdersController",
+    "Method": "DeleteOrder",
+    "RelativePath": "api/Orders/delete-order/{userId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "shop.Controllers.OrdersController",
     "Method": "GetOrders",
     "RelativePath": "api/Orders/user/{userId}",
     "HttpMethod": "GET",
@@ -190,6 +185,52 @@
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.List\u00601[[Order, shop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "shop.Controllers.PaymentsController",
+    "Method": "GetPayments",
+    "RelativePath": "api/Payments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[shop.Entities.Payment, shop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "shop.Controllers.PaymentsController",
+    "Method": "DeletePayments",
+    "RelativePath": "api/Payments/{PaymentId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PaymentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[shop.Entities.Payment, shop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -340,22 +381,16 @@
     ]
   },
   {
-    "ContainingType": "shop.Controllers.ProductsController",
-    "Method": "GetFilteredProducts",
-    "RelativePath": "api/Products/filter",
+    "ContainingType": "shop.Controllers.ShopUsersController",
+    "Method": "GetShopUsers",
+    "RelativePath": "api/ShopUsers",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "category",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[shop.Entities.Product, shop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[ShopUser, shop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -366,22 +401,22 @@
     ]
   },
   {
-    "ContainingType": "shop.Controllers.ProductsController",
-    "Method": "SearchProducts",
-    "RelativePath": "api/Products/search",
-    "HttpMethod": "GET",
+    "ContainingType": "shop.Controllers.ShopUsersController",
+    "Method": "DeleteUsers",
+    "RelativePath": "api/ShopUsers/{userId}",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "searchTerm",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[shop.Entities.Product, shop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[ShopUser, shop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -421,16 +456,6 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "shop.Controllers.ShopUsersController",
-    "Method": "GetUserDetails",
-    "RelativePath": "api/ShopUsers/user-details",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
     "ReturnTypes": []
   }
 ]

@@ -1,10 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using shop.Data;
-using shop.Entities;
 using Microsoft.AspNetCore.Cors;
 using shop.Models;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using shop.models;
 
@@ -109,7 +106,26 @@ namespace shop.Controllers
             return Ok(orderDetails);
         }
 
+        [HttpDelete("delete-order/{userId}")]
+        public async Task<IActionResult> DeleteOrder(int userId)
+        {
+            // Find the user's order
+            var order = await _context.Orders
+                .Include(c => c.OrderItems)
+                .FirstOrDefaultAsync(c => c.UserId == userId);
 
+            if (order == null)
+            {
+                return NotFound("Order not found.");
+            }
 
+            // Remove the order and its associated order items
+            _context.Orders.Remove(order);
+
+            // Save changes to the database
+            await _context.SaveChangesAsync();
+
+            return Ok(new { Success = true, Message = "Order deleted successfully." });
+        }
     }
 }
