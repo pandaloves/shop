@@ -1,10 +1,10 @@
 using System.Text;
-using shop;
-using shop.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using shop;
+using shop.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,22 +15,27 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<JwtHandler>();
 builder.Services.AddScoped<UserDetailsService>();
 
+// Database configuration
 builder.Services.AddDbContext<DataContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
+// CORS Policy configuration
 builder.Services.AddCors(options => options.AddPolicy("ShopOrigins",
     policy =>
     {
-        policy.WithOrigins("http://localhost:5173")
+        policy.WithOrigins("http://localhost:5173", "https://fashionhub-app.netlify.app")
               .AllowAnyMethod()
               .AllowAnyHeader()
               .AllowCredentials();
     }));
 
+// JWT Settings
 var jwtSettings = builder.Configuration.GetSection("JwtSettings");
+var securityKey = jwtSettings["securityKey"];
 
+// JWT Authentication
 builder.Services.AddAuthentication(opt =>
 {
     opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -44,14 +49,15 @@ builder.Services.AddAuthentication(opt =>
         ValidateLifetime = true,
         ValidateIssuerSigningKey = true,
         ValidIssuer = jwtSettings["validIssuer"],
-        ValidAudience = jwtSettings["validAudience"],
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings["securityKey"])) 
+        ValidAudiences = jwtSettings.GetSection("validAudience").Get<string[]>(),
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(securityKey))
     };
 });
 
+// Identity Configuration
 builder.Services.Configure<IdentityOptions>(options =>
 {
-    // Password settings.
+    // Password settings
     options.Password.RequireDigit = true;
     options.Password.RequireLowercase = true;
     options.Password.RequireNonAlphanumeric = true;
@@ -59,20 +65,20 @@ builder.Services.Configure<IdentityOptions>(options =>
     options.Password.RequiredLength = 6;
     options.Password.RequiredUniqueChars = 1;
 
-    // Lockout settings.
+    // Lockout settings
     options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
     options.Lockout.MaxFailedAccessAttempts = 5;
     options.Lockout.AllowedForNewUsers = true;
 
-    // User settings.
+    // User settings
     options.User.AllowedUserNameCharacters =
-    "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+";
+        "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+";
     options.User.RequireUniqueEmail = false;
 });
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Middleware configuration
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -80,7 +86,10 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+// Use CORS
 app.UseCors("ShopOrigins");
+
 app.UseAuthentication();
 app.UseAuthorization();
 

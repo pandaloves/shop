@@ -6242,11 +6242,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\meiyi\\Downloads\\shop\\shop\\shop.csproj",
+      "projectUniqueName": "C:\\Users\\meiyi\\OneDrive\\Desktop\\shop\\shop\\shop.csproj",
       "projectName": "shop",
-      "projectPath": "C:\\Users\\meiyi\\Downloads\\shop\\shop\\shop.csproj",
+      "projectPath": "C:\\Users\\meiyi\\OneDrive\\Desktop\\shop\\shop\\shop.csproj",
       "packagesPath": "C:\\Users\\meiyi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\meiyi\\Downloads\\shop\\shop\\obj\\",
+      "outputPath": "C:\\Users\\meiyi\\OneDrive\\Desktop\\shop\\shop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\meiyi\\AppData\\Roaming\\NuGet\\NuGet.Config",
